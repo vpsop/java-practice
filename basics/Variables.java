@@ -2,6 +2,11 @@ package basics;
 
 class Variables {
 
+    // Identifiers can contain: Letters, Digits, _ (underscore), $
+    // But they cannot start with a digit.
+
+    // A literal is a fixed value written directly in the source code.
+
     private static String name;
     private static int level;
 
@@ -17,7 +22,7 @@ class Variables {
 
         
         // ERROR: A local variable in Java must be initialized before you use it.
-        
+
         // TODO: Uncomment below two lines to see error
         // String greeting;
         // System.out.println(greeting);
