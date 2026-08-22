@@ -125,5 +125,7 @@ public class SwitchStatement {
         // default is optional.
         // break is optional, but without it fall-through may happen.
         // switch is useful when comparing one value against multiple fixed cases.
+        //
+        // Case lables should be valid compile time constants.
     }
 }
