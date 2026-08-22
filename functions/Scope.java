@@ -9,17 +9,22 @@ class LocalScope {
     }
 
     void show() {
-        // System.out.println(x); // Error
+        // Error
+        // System.out.println(x); 
     }
 }
 
 class GloablScope {
 
-    int x = 10;          // instance variable
-    static int y = 20;   // static/class variable
+    // instance variable
+    int x = 10;
+
+    // static or class variable
+    static int y = 20;
 
     void display() {
-        int z = 30;      // local variable
+        // local variable
+        int z = 30;
 
         System.out.println(x);
         System.out.println(y);
